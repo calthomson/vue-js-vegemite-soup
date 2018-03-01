@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import HelloWorld from '@/components/HelloWorld';
+import Post from '../components/Post';
+import Blog from '../components/Blog';
 
 Vue.use(Router);
 
@@ -8,8 +9,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld,
+      name: 'feed',
+      component: Blog,
+    },
+    {
+      path: '/Post',
+      name: 'Post',
+      component: Post,
     },
   ],
 });

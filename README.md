@@ -2,16 +2,16 @@
 This will be a personal blog built using Vue.js, and jump-started with the [vue webpack boilerplate](https://github.com/vuejs-templates/webpack).
 
 ### To run the application:
-* Install dependencies
+##### Install dependencies
 `npm install`
 
-* Serve with hot reload at localhost:8080
+##### Serve with hot reload at localhost:8080
 `npm run dev`
 
-* To build for production with minification
+##### To build for production with minification
 `npm run build`
 
-* To build for production and view the bundle analyzer report
+##### To build for production and view the bundle analyzer report
 `npm run build --report`
 
 ### Goal
