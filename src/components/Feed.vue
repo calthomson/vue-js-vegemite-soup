@@ -16,11 +16,13 @@ export default {
 
   data() {
     return {
-      posts: [
-        { title: 'Hiiii', id: '0' },
-        { title: 'We\'re test posts', id: '1' },
-      ],
+      posts: [],
     };
+  },
+
+  beforeMount() {
+    this.$getResource('feed')
+      .then((posts) => { this.posts = posts; });
   },
 };
 </script>
